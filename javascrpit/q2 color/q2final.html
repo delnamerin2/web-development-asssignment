@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>background colour</title>
+    <style>
+       .color {
+           
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            margin: 5px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Choose a Background Color:</h1>
+    
+    
+    <div class="color" id="color1" onclick="changeBackgroundColor('#ff5733')">Red</div>
+    <div class="color" id="color2" onclick="changeBackgroundColor('#33ff57')">Green</div>
+    <div class="color" id="color3" onclick="changeBackgroundColor('#3377ff')">Blue</div>
+
+
+    <script>
+        // Function to change the background color
+        function changeBackgroundColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>

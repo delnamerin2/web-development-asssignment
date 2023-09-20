@@ -1,0 +1,39 @@
+/* Style for the blog app container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eeeed6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Style for the blog post elements */
+.border {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Style for the form */
+.form-group {
+    margin-bottom: 20px;
+}
+/* Style for the Summernote rich text editor */
+.note-editor {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+/* Style for the Submit button */
+.btn-primary {
+    background-color: #ef19ef;
+    color: #fff;
+}
+/* Style for the Submit button on hover */
+.btn-primary:hover {
+    background-color: #0056b3;
+}

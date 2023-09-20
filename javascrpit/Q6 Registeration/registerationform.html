@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+    <script src="/js/registerationform.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <style>
+        .error{
+            border-color: red;
+            
+        }
+        .customContainer{
+       
+        max-width:600px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 5px;
+        
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Registeration Form</h1>
+<div class="customContainer">
+    <form id="frmRegisteration">  
+        <div class="form-group">
+       <label for="fullName">Full Name:</label><br>
+       <input type="textbox" name="txtFullName" id="txtFullName" placeholder="Full Name" class="form-control "><br><br>
+       <span id="fullNameError" class="error" style="color: red;"></span>
+        </div>
+
+
+    <div class="form-group">
+      <label for="emailAddress">Email Address:</label><br>
+      <input type="email" name="txtEmailAddress" id="txtEmailAddress" placeholder="Email Address" class="form-control"><br><br>
+      <span id="emailAddressError" class="error" style="color: red;"></span>
+    </div>
+
+    <div class="form-group">
+       <label for="phoneNumber">Phone Number(Enter only 10 digit):</label><br>
+       <input type="textbox" name="numPhoneNumber" id="numPhoneNumber" placeholder="Phone Number" class="form-control"><br><br>
+       <span id="phoneNumberError" class="error" style="color: red;"></span>
+    </div>
+
+
+    <div class="form-group">
+       <label for="password">Password:</label><br>
+       <input type="password" name="pswPassword" id="pswPassword" placeholder="Password" class="form-control"><br><br>
+       <span id="passwordError" class="error" style="color: red;"></span>
+    </div>
+
+       <div class="form-group">
+       <label for="confirmPassword">Confirm Password:</label><br>
+       <input type="password" name="pswConfirmPassword" id="pswConfirmPassword" placeholder="Confirm Password" class=form-control><br><br>
+       <span id="confirmPasswordError" class="error" style="color: red;"></span>
+    </div>
+
+        <input type="submit" name="register" id="register" value="Register" class="btn btn-primary">
+
+
+    </form>
+</div> 
+
+
+</body>
+</html>
